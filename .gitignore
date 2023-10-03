@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / build
+dist/
+build/
+fis_data.egg-info/
+
+# IDE configurations
+.idea/
+
+# Other
+*.swp  # vim swap files
+*~  # backup files
