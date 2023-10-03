@@ -1,8 +1,8 @@
 import argparse
 import pandas as pd
 
-def rearrange_excel_data(input_filepath, output_filepath):
-    normalised_data = pd.read_excel(input_filepath, sheet_name="Normalised", header=None)
+def rearrange_excel_data(input_filepath, output_filepath, sheet_name="Normalised"):
+    normalised_data = pd.read_excel(input_filepath, sheet_name=sheet_name, header=None)
 
     time_col = pd.Series([i * 10 for i in range(10)], name="Time (min)")
 
