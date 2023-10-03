@@ -15,3 +15,5 @@ fis_data.egg-info/
 # Other
 *.swp  # vim swap files
 *~  # backup files
+instructions.rst
+
