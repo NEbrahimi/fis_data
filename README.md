@@ -2,7 +2,7 @@
 # FIS Data Rearranger
 
 ## Description
-`fis_data` is a Python package designed to rearrange data from an Excel sheet in a specific format. It allows users to extract and reorganize data from a sheet named "Normalised" and export the rearranged data to a new Excel file. This package is particularly useful for [specific use case or domain].
+`fis_data` is a Python script designed to manage and reformat data derived from FIS analysis. Specifically, it targets data stored in an Excel sheet named "Normalised." This script enables users to efficiently extract and rearrange this data, facilitating its export into a new Excel file tailored for subsequent analyses. This tool is especially beneficial for conducting FIS Analysis within our research group, streamlining the workflow and improving data handling efficiency.
 
 ## Installation
 To install `fis_data`, you can use pip:
